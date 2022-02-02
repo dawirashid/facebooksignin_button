@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "1021171970706",
+    "project_id": "facebook-buttonsignin-concept",
+    "storage_bucket": "facebook-buttonsignin-concept.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1021171970706:android:d3ea2a2dbe55cd8c186c4b",
+        "android_client_info": {
+          "package_name": "com.example.facebooksignin_button"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1021171970706-cettnksoib14ardbq5k0qfc4nkq15j6v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnb8nb15EbLg7FKTRkJo7afv67XczmW78"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1021171970706-cettnksoib14ardbq5k0qfc4nkq15j6v.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1021171970706-ma05pths3lt9lmifob8d9mlkj6nlai8k.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.facebooksigninButton"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
