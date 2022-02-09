@@ -1,5 +1,7 @@
+import 'package:facebooksignin_button/auth_class.dart';
+import 'package:facebooksignin_button/loginpage.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_facebook_auth/flutter_facebook_auth.dart';
+// import 'package:flutter_facebook_auth/flutter_facebook_auth.dart';
 
 class Profilepage extends StatefulWidget {
   const Profilepage({Key? key}) : super(key: key);
@@ -14,10 +16,15 @@ class _ProfilepageState extends State<Profilepage> {
     return Scaffold(
       body: Center(
         child: ElevatedButton(
-          onPressed: () async {
-            await FacebookAuth.i.logOut();
+          onPressed: () {
+            AutchClass().signOut();
             setState(() {});
-            Navigator.pop(context);
+            Navigator.pushAndRemoveUntil(
+                context,
+                MaterialPageRoute(
+                    builder: (context) => const Homepage()),
+                    (route) => false);
+
           },
           child: const Text('sign out'),
         ),

@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
+    <string name="app_name">signbutton_demo</string>
     <string name="facebook_app_id">636562897577171</string>
     <string name="fb_login_protocol_scheme">fb636562897577171</string>
     <string name="facebook_client_token">a0b153d150a7e5de7c1880e0674eea1b</string>
-
-
-
 </resources>
